@@ -1,0 +1,11 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}%
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
+\contentsline {section}{\numberline {3}Aufbau}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Oszilloskop}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}TDC7201}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Time Tagger}{3}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Durchführung}{5}{section.4}%
+\contentsline {section}{\numberline {5}Diskussion}{5}{section.5}%
+\contentsline {section}{\numberline {6}Anhang}{5}{section.6}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
