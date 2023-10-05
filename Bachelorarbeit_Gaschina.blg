@@ -1,4 +1,4 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'Bachelorarbeit_Gaschina.blg'
-[292] biber-MSWIN64:340> INFO - === 
-[388] Biber.pm:419> INFO - Reading 'Bachelorarbeit_Gaschina.bcf'
+[1] Config.pm:310> INFO - Logfile is 'Bachelorarbeit_Gaschina.blg'
+[383] biber-MSWIN64:340> INFO - === 
+[504] Biber.pm:419> INFO - Reading 'Bachelorarbeit_Gaschina.bcf'
