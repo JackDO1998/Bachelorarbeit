@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Bachelorarbeit.bcf</file>
+      <file>Bachelorarbeit_Gaschina.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>Bachelorarbeit.bbl</file>
+      <file>Bachelorarbeit_Gaschina.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,19 +68,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>Bachelorarbeit</infile>
+      <infile>Bachelorarbeit_Gaschina</infile>
     </cmdline>
     <input>
-      <file>Bachelorarbeit.bcf</file>
+      <file>Bachelorarbeit_Gaschina.bcf</file>
     </input>
     <output>
-      <file>Bachelorarbeit.bbl</file>
+      <file>Bachelorarbeit_Gaschina.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>Bachelorarbeit.bbl</file>
+      <file>Bachelorarbeit_Gaschina.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Bachelorarbeit.bcf</file>
+      <file>Bachelorarbeit_Gaschina.bcf</file>
     </requires>
   </external>
 </requests>
