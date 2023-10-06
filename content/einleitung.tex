@@ -2,15 +2,23 @@
 \label{sec:Einleitung}
 Der Dortmunder Elektronenspeicherring DELTA (Dortmund Electron Accelerator) ist eine 
 $\SI{1,5}{\giga\electronvolt}$ Synchrotronstrahlungsquelle mit einem Umfang von $\SI{115,2}{\meter}$.
-Synchrotronstrahlung ist diejenige breitspektrale Strahlung welche entsteht wenn, mit elektrischer Ladung
-belegte Teilchen, beschleunigt werden. In einem Speicherring bleiben die geladenen Teilchen zwar in sehr 
-guter Näherung bei gleicher Geschwindigkeit, welche hier nahezu die Vakuumlichtgeschwindigkeit ist, 
-jedoch stellt auch ein Richtungswechsel im Laborsystem eine Beschleunigung dar sodas in jeder Kurve des
-Speicherrings Synchrotronstrahlung abgegeben wird. Die Richtungsänderung zur Erhaltung der null-förmigen
-Sollbahn wird bei DELTA durch elektrische Dipolmagneten, welche mit einem Betriebsstrom von etwa
-$\SI{1}{\kilo\ampere}$ eine magnetische Flussdichte von circa $\SI{1,5}{\tesla}$ in der Strahlbahn 
-erzeugen, bewirkt. Die so erzeugte Strahlung nennt sich nach ihrer entstehung Dipolstrahlung und kann 
-an 12 Beamlines ausgekoppelt werden. In den hier beschriebenen Experimenten wird jedoch keine 
+Die bereitgestellte Synchrotronstrahlung wird von verschiedenen Arbeitsgruppen aus den Gebieten der 
+Physik, Chemie und Materialwissenschafen genutzt, um meist kondensierte Materie zu untersuchen. Zudem 
+wird bei DELTA in immer größerem Maß Grundlagenforschung im Bereich der Beschleunigerphysik betrieben.
+Dazu zählen vorallem Konzepte zur erzeugung von ultrakurzen Strahlungspulsen mittels Interaktion von
+geladnenen Teilchen, welche sich in periodischen Magnetfeldstrukturen bewegen, mit Laserpulsen 
+unterschiedlichster Wellenlängen. Synchrotronstrahlung ist diejenige breitspektrale Strahlung welche 
+entsteht wenn, mit elektrischer Ladung belegte Teilchen, beschleunigt werden. In einem Speicherring 
+bleiben die geladenen Teilchen zwar in sehr guter Näherung bei gleicher Geschwindigkeit, welche hier 
+nahezu die Vakuumlichtgeschwindigkeit ist, jedoch stellt auch ein Richtungswechsel im Laborsystem eine 
+Beschleunigung dar sodas in jeder Kurve des Speicherrings Synchrotronstrahlung abgegeben wird. Die 
+Richtungsänderung zur Erhaltung der null-förmigen Sollbahn wird bei DELTA durch elektrische Dipolmagneten, 
+welche mit einem Betriebsstrom von etwa $\SI{1}{\kilo\ampere}$ eine magnetische Flussdichte von circa 
+$\SI{1,5}{\tesla}$ in der Strahlbahn erzeugen, bewirkt. Die so erzeugte Strahlung nennt sich nach ihrer 
+entstehung Dipolstrahlung und kann an 12 Beamlines ausgekoppelt werden. Die mit der Strahlung 
+ausgekoppelte Energie geht für die umlaufenden Teilchen verloren und muss in als Cavity bezeichneten 
+elektromagnetischen Hohlraumresonatoren nachgefüttert werden. Die Cavitys werden mit einer Frequenz von 
+knapp $\SI{500}{\mega\hertz}$ betrieben. In den hier beschriebenen Experimenten wird jedoch keine 
 Dipolstrahlung verwendet sondern Undulatorstrahlung. Diese entsteht wenn ein geladenes Teilchen eine 
 Anordnung von abwechselnd gepolten Magneten durchläuft. Diese Abfolge wird Undulator genannt. Die 
 entstehende Strahlung ist im Spektrum wesentlich schmaler als die Dipolstrahlung am selben Speicherring.
@@ -23,7 +31,7 @@ Der Elektonenstrahl ist an dieser Maschine in 192 Buckets mit einer Länge von e
 etwa $\SI{2}{\nano\second}$ entspricht, aufgeteilt. In jedem Bucket können sich unterschiedlich viele 
 Elektronen befinden. Ein Bucket bezeichnet hier eine Art räumlichen Abschnitts im mitbewegten Bezugssystem. 
 Die Gruppe von Elektronen die sich in jedem Bucket befinden kann, besitzt bei Lichtgeschwindigeit eine 
-Länge von etwa $\SI{36}{\pico\second}$. Die Kombination von unterschiedlich stark gefüllten Buckets wird 
+Länge von etwa $\SI{36}{\pico\second}$ und wird als Bunch bezeichnet. Die Kombination von unterschiedlich stark gefüllten Buckets wird 
 Füllstruktur genannt. DELTA kann mit drei verschiedenen Typen von Füllstrukturen betrieben werden.
 
 \subsection{Singlebunch}
@@ -44,7 +52,8 @@ herangefahren bis nurnoch ein einzelnes Elektron übrig ist.
 Der Multibunchbetrieb stellt die Standardfüllstruktur bei DELTA dar. Hier werden 128 der Buckets mit 
 einer ähnlichen Anzahl von Elektronen befüllt, darauf folgen dann 64 ungefüllte Buckets. Das bedeutet es 
 wird eine Abfolge von 128 kurzen Strahlungsblitzen mit einem Absand von jeweils etwa 
-$\SI{2}{\nano\second}$ erzeugt auf welche eine Strahlungsfreie Periode von etwa $\SI{128}{\nano\second}$.
+$\SI{2}{\nano\second}$ erzeugt auf welche eine Strahlungsfreie Periode von etwa $\SI{128}{\nano\second}$
+folgt.
 
 
 \subsection{Hybride Füllstruktur}
@@ -54,5 +63,17 @@ gestartet wird und dann in ein Bucket das zur strahlungsfreien Periode gehört E
 
 \subsection{Bisherige Messung der Füllstruktur}
 \label{sec:WasBisherGeschah}
-Bisher wird die Füllstruktur mittels einer Oszilloskopkarte gemessen.
+Bisher wird die Füllstruktur gemessen indem das Signal eines BPMs (Beam Position Monitors) mit einer
+Oszilloskopkarte ausgewertet wird. Ein solcher BPM besteht aus vier sogenannter Pickupelektroden
+welche in der zum Strahl transversalen Ebene in die Bahn eingebracht wurden. Wenn nun ein Elektronenpaket
+diese Ebene quert, erzeugt es in den Elektroden Spiegelladungen, daher kann eine kleine Spannung gemessen 
+werden. Aus den vier Spannungen kann dann die transversale Strahllage berechnet werden. Um die Füllstruktur
+zu errechnen müssen jedoch alle vier Spannungen in einem Leistungsaddierer addiert werden. Dabei gilt:
+je größer das Gesamtsignal desto größer die Ladungsmenge im Bunch. Das entstehende 
+Summensignal wird an eine Oszilloskopkarte weitergeleitet dort aufgezeichnet, verarbeitet und über das 
+EPICS (Experimental Physics and Industrial Control System) an den Kontrollraum weitergeleitet wo es
+als Balkendiagram mit der Bucketnummer auf der Abszisse und der Ladungsmenge auf der Ordinate dargestellt 
+wird.
+
+
 
