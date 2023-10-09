@@ -1,6 +1,58 @@
 \section{Theorie}
 \label{sec:Theorie}
 
+\subsection{Entstehung von Synchrotronstrahlung}
+\label{sec:Synchrotronstrahlung}
+Synchrotronstrahlung bezeichnet ein kontinuirliches Strahlungspektrum das vom Infraroten über das 
+sichtbare und ultraviolette Licht bis in den Bereich der harten Röntgenstrahlung reicht. Sie entsteht, 
+wie bereits erwähnt, durch die beschleunigung von elektrisch geladenen Teilchen, im speziellen Fall des
+DELTA Speicherrings durch die Beschleunigung von Elektronen. Um die zur Beschleunigung verwendete 
+Richtungsänderung zu bewirken werden Magnetfelder verwendet. Elektrisch geladene Teilchen in einem 
+Magnetfeld sind der Lorentzkraft ausgezetzt. Sie wird beschrieben durch:
+
+\begin{equation*}
+    \vec{F_L} = e \cdot \vec{v} \times \vec{B} = \dot{\vec{p}}
+\end{equation*}
+
+Die Kraft wirkt also auf ein mit der Ladung $e$ belegtes Teilchen das mit der Geschwindigkeit $\vec{v}$
+das Magnetfeld $\vec{B}$ durchuqert. Der Biegeradius $R$ lässt sich durch gleichstzen der Lorentzkraft 
+mit der Zentripetalkraft $\vec{F_Z}$ ermitteln. 
+
+\begin{equation*}
+    \vec{F_Z} = m \frac{\vec{v^2}}{R}
+\end{equation*}
+
+\begin{equation*}
+    \vec{F_Z} = \vec{F_L} \\\
+    \Rightarrow m \frac{\vec{v}^2}{R} = e \cdot \vec{v} \times \vec{B}\\\\
+    \Leftrightarrow R = \frac{\vec{v}^2 m}{e \cdot \lvert \vec{v} \times \vec{B} \rvert}
+\end{equation*}
+
+Da sich die Elektronen mit nahezu Lichtgeschwindigkeit bewegen muss relativistisch gerechnet werden.
+Es gilt also $m=m_0\gamma$ mit $m_0$ der Ruhemasse des Elektrons und $\gamma$ dem Lorentzfaktor.
+Die Strahlungsleistung $P_S$ eines derart bewegten Elektrons wird beschrieben durch:
+
+\begin{equation*}
+    P_S = \frac{e^2c}{6\pi \epsilon_0}\frac{1}{(m_0c^2)^4}\frac{E^4}{R^2}
+\end{equation*}
+
+Hier meint $c$ die Vakuumlichtgeschwindigkeit, $\epsilon_0$ die Dielektrizitätskonstante 
+und $E$ die Gesamtenergie des Teilchens. Das die Ruhemase $m_0$ in vierter Potenz eingeht,
+erklärt die gute Eignung von Elektronen zur Synchrotronstrahlungserzeugung. Schwerere 
+Teilchen wie Protonen oder auch \tau-Leptonen sind nicht nur schwerer zu beschaffen, sondern
+müssten auch auf deutlich größere Energien beschleunigt werden um die gleiche Strahlungsleistung
+zu erbringen. Pro Umlauf ergibt sich für ein Elektron die mittlere Abgestrahlte Energie $\Delta E$:
+
+\begin{equation*}
+    \Delta E = \frac{e^2}{3\epsilon_0(m_oc^2)^4}\frac{E^4}{R}
+\end{equation*}
+
+
+
+
+
+
+
 \subsection{Wahrscheinlichkeit für das Messen eines Photons}
 \label{sec:Wahrscheinlichkeitsrechnung}
 
