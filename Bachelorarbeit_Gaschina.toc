@@ -6,12 +6,13 @@
 \contentsline {subsection}{\numberline {1.4}Bisherige Messung der Füllstruktur}{4}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Theorie}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Entstehung von Synchrotronstrahlung}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Undulatorstrahlung}{5}{subsubsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.2}Wahrscheinlichkeit für das Messen eines Photons}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Höhenkorrektur der Histogramme}{6}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Aufbau}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Oszilloskop}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}TDC7201}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Time Tagger}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Time Tagger}{8}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Durchführung}{8}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Auflösung des TDC bestimmen}{8}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Probleme bei der Messung mittels TDC}{8}{subsection.4.2}%
