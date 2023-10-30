@@ -3,23 +3,28 @@
 \contentsline {subsection}{\numberline {1.1}Singlebunch}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Multibunch}{4}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Hybride Füllstruktur}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Bisherige Messung der Füllstruktur}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.4}Bisherige Messung der Füllstruktur}{5}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Theorie}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Entstehung von Synchrotronstrahlung}{5}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Undulatorstrahlung}{5}{subsubsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.2}Wahrscheinlichkeit für das Messen eines Photons}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Höhenkorrektur der Histogramme}{6}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Aufbau}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Oszilloskop}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}TDC7201}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Time Tagger}{8}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Durchführung}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Auflösung des TDC bestimmen}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Probleme bei der Messung mittels TDC}{8}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Geschwindigkeit des Delaygenerators}{8}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Geschwindigkeit des TDC}{8}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Messungen mit dem Oszilloskop}{8}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Messungen mit dem Time Tagger}{8}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Auswertung}{8}{section.5}%
-\contentsline {section}{\numberline {6}Diskussion}{8}{section.6}%
+\contentsline {subsubsection}{\numberline {2.1.1}Undulatorstrahlung}{6}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Wahrscheinlichkeit für das Messen eines Photons}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Berechnung von $P_{\textit {Abschwächer}}$}{8}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Berechnung von $P_{Bandpass}$}{8}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Höhenkorrektur der Histogramme}{8}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Aufbau}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Der Undulator}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Optischer Aufbau}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Der Photomultiplier}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Oszilloskop}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}TDC7201}{11}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Time Tagger}{11}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Durchführung}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Auflösung des TDC bestimmen}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Probleme bei der Messung mittels TDC}{14}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Geschwindigkeit des Delaygenerators}{14}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Geschwindigkeit des TDC}{14}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Messungen mit dem Oszilloskop}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Messungen mit dem Time Tagger}{14}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Auswertung}{14}{section.5}%
+\contentsline {section}{\numberline {6}Diskussion}{14}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

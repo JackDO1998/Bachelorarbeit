@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.5.28)  11 OCT 2023 00:31
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.5.28)  27 OCT 2023 12:10
  restricted system commands enabled.
  file:line:error style messages enabled.
 **d:/OneDrive/Dokumente/Bachelorarbeit/Latex/Bachelorarbeit/Bachelorarbeit_Gaschina
@@ -934,7 +934,7 @@ File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 ))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 124.
+(scrhack)             need that hack, on input line 127.
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
  (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -1258,40 +1258,40 @@ Package csquotes Info: ... found 'babel' package.
  (./Bachelorarbeit_Gaschina.aux)
 \openout1 = Bachelorarbeit_Gaschina.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/LatinModernMath(1)/m/n --> TU/lmr/m/n on input line 169.
+(Font)                  TU/LatinModernMath(1)/m/n --> TU/lmr/m/n on input line 173.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 169.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 173.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 169.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 173.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 169.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 173.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 169.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 173.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 169.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 173.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 169.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 173.
  (c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -1301,9 +1301,9 @@ Package color Info: Driver file: luatex.def on input line 149.
  (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 169.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 173.
 
-Package chemgreek Info: Activating mapping `fontspec' on line 169.
+Package chemgreek Info: Activating mapping `fontspec' on line 173.
 
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1327,26 +1327,26 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 169.
-Package microtype Info: Applying patch `item' on input line 169.
-Package microtype Info: Applying patch `toc' on input line 169.
-Package microtype Info: Applying patch `eqnum' on input line 169.
-Package microtype Info: Applying patch `footnote' on input line 169.
-Package microtype Info: Applying patch `verbatim' on input line 169.
+LaTeX Info: Redefining \microtypecontext on input line 173.
+Package microtype Info: Applying patch `item' on input line 173.
+Package microtype Info: Applying patch `toc' on input line 173.
+Package microtype Info: Applying patch `eqnum' on input line 173.
+Package microtype Info: Applying patch `footnote' on input line 173.
+Package microtype Info: Applying patch `verbatim' on input line 173.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 169.
+LaTeX Info: Redefining \showhyphens on input line 173.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
  (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Modern Roman (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 169.
+Package hyperref Info: Link coloring OFF on input line 173.
  (./Bachelorarbeit_Gaschina.out) (./Bachelorarbeit_Gaschina.out)
 \@outlinefile=\write4
 
@@ -1358,7 +1358,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 169.
+(scrartcl)           before \begin{document} on input line 173.
  (c:/texlive/2023/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (c:/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1388,8 +1388,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Bachelorarbeit_Gaschina.bbl' found.
  (./Bachelorarbeit_Gaschina.bbl)
-Package biblatex Info: Reference section=0 on input line 169.
-Package biblatex Info: Reference segment=0 on input line 169.
+Package biblatex Info: Reference section=0 on input line 173.
+Package biblatex Info: Reference segment=0 on input line 173.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1399,17 +1399,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 172.
+(Font)              scaled to size 14.40152pt on input line 176.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 172.
+(Font)              scaled to size 10.00107pt on input line 176.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 172.
+(Font)              scaled to size 7.00075pt on input line 176.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 172.
+(Font)              scaled to size 14.39845pt on input line 176.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 172.
+(Font)              scaled to size 9.99893pt on input line 176.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 172.
+(Font)              scaled to size 6.99925pt on input line 176.
  (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1422,7 +1422,7 @@ Package microtype Info: Loading generic protrusion settings for font family
  [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./content/abstract.tex)
-Package tocbasic Info: character protrusion at toc deactivated on input line 174.
+Package tocbasic Info: character protrusion at toc deactivated on input line 178.
  (./Bachelorarbeit_Gaschina.toc)
 \tf@toc=\write5
 
@@ -1430,12 +1430,12 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 174
  [2
 
 ] (./content/einleitung.tex
-<TUlogo.png, id=69, 1284.8pt x 1018.80624pt>
+<TUlogo.png, id=82, 1284.8pt x 1018.80624pt>
 File: TUlogo.png Graphic file (type png)
 <use TUlogo.png>
 Package luatex.def Info: TUlogo.png  used on input line 50.
 (luatex.def)             Requested size: 31.52394pt x 25.0pt.
-<FAKlogo.png, id=72, 91.09032pt x 39.14626pt>
+<FAKlogo.png, id=85, 91.09032pt x 39.14626pt>
 File: FAKlogo.png Graphic file (type png)
 <use FAKlogo.png>
 Package luatex.def Info: FAKlogo.png  used on input line 50.
@@ -1454,46 +1454,130 @@ Package scrlayer-scrpage Warning: \headheight to low.
 
 Overfull \vbox (12.08003pt too high) has occurred while \output is active []
 
- [3<./TUlogo.png><./FAKlogo.png>]) (./content/theorie.tex
-File: TUlogo.png Graphic file (type png)
-<use TUlogo.png>
-Package luatex.def Info: TUlogo.png  used on input line 12.
-(luatex.def)             Requested size: 31.52394pt x 25.0pt.
-File: FAKlogo.png Graphic file (type png)
-<use FAKlogo.png>
-Package luatex.def Info: FAKlogo.png  used on input line 12.
-(luatex.def)             Requested size: 58.17526pt x 25.0pt.
- [4]
-File: TUlogo.png Graphic file (type png)
-<use TUlogo.png>
-Package luatex.def Info: TUlogo.png  used on input line 59.
-(luatex.def)             Requested size: 31.52394pt x 25.0pt.
-File: FAKlogo.png Graphic file (type png)
-<use FAKlogo.png>
-Package luatex.def Info: FAKlogo.png  used on input line 59.
-(luatex.def)             Requested size: 58.17526pt x 25.0pt.
- [5
-Missing character: There is no 𝜏 (U+1D70F) in font [lmroman10-regular]:+tlig;!
-]) (./content/aufbau.tex
-<content/plots/multiplot1.pdf, id=99, 462.528pt x 346.896pt>
-File: content/plots/multiplot1.pdf Graphic file (type pdf)
-<use content/plots/multiplot1.pdf>
-Package luatex.def Info: content/plots/multiplot1.pdf  used on input line 29.
-(luatex.def)             Requested size: 462.52686pt x 346.89514pt.
+ [3<./TUlogo.png><./FAKlogo.png>]
+<content/plots/standardfillingpattern.pdf, id=94, 433.62pt x 144.54pt>
+File: content/plots/standardfillingpattern.pdf Graphic file (type pdf)
+<use content/plots/standardfillingpattern.pdf>
+Package luatex.def Info: content/plots/standardfillingpattern.pdf  used on input line 61.
+(luatex.def)             Requested size: 433.61894pt x 144.53963pt.
 
-Overfull \hbox (44.2713pt too wide) in paragraph at lines 29--30
+Overfull \hbox (15.36339pt too wide) in paragraph at lines 61--62
+ [][] 
+ []
+
+<content/plots/hybrid.pdf, id=95, 433.62pt x 144.54pt>
+File: content/plots/hybrid.pdf Graphic file (type pdf)
+<use content/plots/hybrid.pdf>
+Package luatex.def Info: content/plots/hybrid.pdf  used on input line 74.
+(luatex.def)             Requested size: 433.61894pt x 144.53963pt.
+
+Overfull \hbox (15.36339pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
 File: TUlogo.png Graphic file (type png)
 <use TUlogo.png>
-Package luatex.def Info: TUlogo.png  used on input line 33.
+Package luatex.def Info: TUlogo.png  used on input line 92.
 (luatex.def)             Requested size: 31.52394pt x 25.0pt.
 File: FAKlogo.png Graphic file (type png)
 <use FAKlogo.png>
-Package luatex.def Info: FAKlogo.png  used on input line 33.
+Package luatex.def Info: FAKlogo.png  used on input line 92.
 (luatex.def)             Requested size: 58.17526pt x 25.0pt.
-[6]) (./content/durchfuehrung.tex
+[4<./content/plots/standardfillingpattern.pdf>]) (./content/theorie.tex
+File: TUlogo.png Graphic file (type png)
+<use TUlogo.png>
+Package luatex.def Info: TUlogo.png  used on input line 16.
+(luatex.def)             Requested size: 31.52394pt x 25.0pt.
+File: FAKlogo.png Graphic file (type png)
+<use FAKlogo.png>
+Package luatex.def Info: FAKlogo.png  used on input line 16.
+(luatex.def)             Requested size: 58.17526pt x 25.0pt.
+ [5<./content/plots/hybrid.pdf>]
+File: TUlogo.png Graphic file (type png)
+<use TUlogo.png>
+Package luatex.def Info: TUlogo.png  used on input line 67.
+(luatex.def)             Requested size: 31.52394pt x 25.0pt.
+File: FAKlogo.png Graphic file (type png)
+<use FAKlogo.png>
+Package luatex.def Info: FAKlogo.png  used on input line 67.
+(luatex.def)             Requested size: 58.17526pt x 25.0pt.
+ [6
+Missing character: There is no 𝜏 (U+1D70F) in font [lmroman10-regular]:+tlig;!
+]
+File: TUlogo.png Graphic file (type png)
+<use TUlogo.png>
+Package luatex.def Info: TUlogo.png  used on input line 121.
+(luatex.def)             Requested size: 31.52394pt x 25.0pt.
+File: FAKlogo.png Graphic file (type png)
+<use FAKlogo.png>
+Package luatex.def Info: FAKlogo.png  used on input line 121.
+(luatex.def)             Requested size: 58.17526pt x 25.0pt.
+ [7]
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 133.
+) (./content/aufbau.tex
+File: TUlogo.png Graphic file (type png)
+<use TUlogo.png>
+Package luatex.def Info: TUlogo.png  used on input line 9.
+(luatex.def)             Requested size: 31.52394pt x 25.0pt.
+File: FAKlogo.png Graphic file (type png)
+<use FAKlogo.png>
+Package luatex.def Info: FAKlogo.png  used on input line 9.
+(luatex.def)             Requested size: 58.17526pt x 25.0pt.
+ [8]
+<content/bilder/blackbox.pdf, id=218, 3035.34pt x 2276.505pt>
+File: content/bilder/blackbox.pdf Graphic file (type pdf)
+<use content/bilder/blackbox.pdf>
+Package luatex.def Info: content/bilder/blackbox.pdf  used on input line 32.
+(luatex.def)             Requested size: 455.23505pt x 341.42628pt.
+
+Overfull \hbox (36.97949pt too wide) in paragraph at lines 32--34
+ [][] 
+ []
+
+File: TUlogo.png Graphic file (type png)
+<use TUlogo.png>
+Package luatex.def Info: TUlogo.png  used on input line 67.
+(luatex.def)             Requested size: 31.52394pt x 25.0pt.
+File: FAKlogo.png Graphic file (type png)
+<use FAKlogo.png>
+Package luatex.def Info: FAKlogo.png  used on input line 67.
+(luatex.def)             Requested size: 58.17526pt x 25.0pt.
+[9]
+File: TUlogo.png Graphic file (type png)
+<use TUlogo.png>
+Package luatex.def Info: TUlogo.png  used on input line 67.
+(luatex.def)             Requested size: 31.52394pt x 25.0pt.
+File: FAKlogo.png Graphic file (type png)
+<use FAKlogo.png>
+Package luatex.def Info: FAKlogo.png  used on input line 67.
+(luatex.def)             Requested size: 58.17526pt x 25.0pt.
+ [10<./content/bilder/blackbox.pdf>]
+<content/bilder/raspi.pdf, id=257, 3035.34pt x 2276.505pt>
+File: content/bilder/raspi.pdf Graphic file (type pdf)
+<use content/bilder/raspi.pdf>
+Package luatex.def Info: content/bilder/raspi.pdf  used on input line 70.
+(luatex.def)             Requested size: 455.23505pt x 341.42628pt.
+
+Overfull \hbox (36.97949pt too wide) in paragraph at lines 70--75
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 75.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 75.
+<content/bilder/RaspiTdcSchaltung.pdf, id=258, 3414.3307pt x 2560.74803pt>
+File: content/bilder/RaspiTdcSchaltung.pdf Graphic file (type pdf)
+<use content/bilder/RaspiTdcSchaltung.pdf>
+Package luatex.def Info: content/bilder/RaspiTdcSchaltung.pdf  used on input line 81.
+(luatex.def)             Requested size: 455.23604pt x 341.42702pt.
+
+Overfull \hbox (36.98048pt too wide) in paragraph at lines 81--84
+ [][] 
+ []
+
+) (./content/durchfuehrung.tex
 File: TUlogo.png Graphic file (type png)
 <use TUlogo.png>
 Package luatex.def Info: TUlogo.png  used on input line 1.
@@ -1502,45 +1586,63 @@ File: FAKlogo.png Graphic file (type png)
 <use FAKlogo.png>
 Package luatex.def Info: FAKlogo.png  used on input line 1.
 (luatex.def)             Requested size: 58.17526pt x 25.0pt.
- [7<./content/plots/multiplot1.pdf>]) (./content/auswertung.tex) (./content/diskussion.tex)
+ [11]
+File: TUlogo.png Graphic file (type png)
+<use TUlogo.png>
+Package luatex.def Info: TUlogo.png  used on input line 1.
+(luatex.def)             Requested size: 31.52394pt x 25.0pt.
+File: FAKlogo.png Graphic file (type png)
+<use FAKlogo.png>
+Package luatex.def Info: FAKlogo.png  used on input line 1.
+(luatex.def)             Requested size: 58.17526pt x 25.0pt.
+ [12<./content/bilder/raspi.pdf>]
+File: TUlogo.png Graphic file (type png)
+<use TUlogo.png>
+Package luatex.def Info: TUlogo.png  used on input line 1.
+(luatex.def)             Requested size: 31.52394pt x 25.0pt.
+File: FAKlogo.png Graphic file (type png)
+<use FAKlogo.png>
+Package luatex.def Info: FAKlogo.png  used on input line 1.
+(luatex.def)             Requested size: 58.17526pt x 25.0pt.
+ [13<./content/bilder/RaspiTdcSchaltung.pdf>]) (./content/auswertung.tex) (./content/diskussion.tex)
 
-LaTeX Warning: Empty bibliography on input line 183.
+LaTeX Warning: Empty bibliography on input line 187.
 
 (./content/anhang.tex)
 File: TUlogo.png Graphic file (type png)
 <use TUlogo.png>
-Package luatex.def Info: TUlogo.png  used on input line 189.
+Package luatex.def Info: TUlogo.png  used on input line 193.
 (luatex.def)             Requested size: 31.52394pt x 25.0pt.
 File: FAKlogo.png Graphic file (type png)
 <use FAKlogo.png>
-Package luatex.def Info: FAKlogo.png  used on input line 189.
+Package luatex.def Info: FAKlogo.png  used on input line 193.
 (luatex.def)             Requested size: 58.17526pt x 25.0pt.
- [8] (./Bachelorarbeit_Gaschina.aux)
+ [14] (./Bachelorarbeit_Gaschina.aux)
 Package rerunfilecheck Info: File `Bachelorarbeit_Gaschina.aux' has not changed.
-(rerunfilecheck)             Checksum: C2264A56E5F679C0DA1CB7EBEAADD920;14777.
+(rerunfilecheck)             Checksum: 5AAB1A562FFB125C649152E133ABCE3B;20494.
 Package rerunfilecheck Info: File `Bachelorarbeit_Gaschina.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package rerunfilecheck Info: File `Bachelorarbeit_Gaschina.toc' has not changed.
-(rerunfilecheck)             Checksum: 623C2AAAE67050660255BDFB3090435F;2092.
+(rerunfilecheck)             Checksum: A2A386479F3B33540601A5FC3E3B702E;2573.
 Package logreq Info: Writing requests to 'Bachelorarbeit_Gaschina.run.xml'.
 
 \openout1 = Bachelorarbeit_Gaschina.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 40204 strings out of 478305
+ 40381 strings out of 478305
  100000,2373549 words of node,token memory allocated
- 755 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 8 glue, 4 kern, 1 penalty, 3 glyph, 26 attribute, 78 glue_spec, 15 attribute_list, 1 write nodes
-   avail lists: 1:5,2:1375,3:348,4:134,5:677,6:81,7:9253,8:35,9:728,10:28,11:1102,12:1
- 59105 multiletter control sequences out of 65536+600000
- 86 fonts using 32995391 bytes
- 108i,23n,114p,10971b,2933s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on Bachelorarbeit_Gaschina.pdf (8 pages, 218077 bytes).
+ 812 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 46 attribute, 78 glue_spec, 25 attribute_list, 1 write nodes
+   avail lists: 1:3,2:1624,3:416,4:153,5:677,6:92,7:9254,8:46,9:745,10:28,11:1102,12:1
+ 59193 multiletter control sequences out of 65536+600000
+ 104 fonts using 38267163 bytes
+ 108i,24n,114p,10971b,2933s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-boldoblique.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-italic.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on Bachelorarbeit_Gaschina.pdf (14 pages, 6994393 bytes).
 
-PDF statistics: 299 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 36 named destinations out of 1000 (max. 131072)
- 185 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 488 PDF objects out of 1000 (max. 8388607)
+ 353 compressed objects within 4 object streams
+ 53 named destinations out of 1000 (max. 131072)
+ 225 words of extra memory for PDF output out of 10000 (max. 100000000)
 

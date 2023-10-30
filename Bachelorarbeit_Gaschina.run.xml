@@ -82,5 +82,8 @@
     <requires type="dynamic">
       <file>Bachelorarbeit_Gaschina.bcf</file>
     </requires>
+    <requires type="editable">
+      <file>lit.bib</file>
+    </requires>
   </external>
 </requests>

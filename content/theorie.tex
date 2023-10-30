@@ -1,5 +1,6 @@
 \section{Theorie}
 \label{sec:Theorie}
+In diesem Kapitel soll kurz die nötige Theoretische Grundlage geschaffen werden.
 
 \subsection{Entstehung von Synchrotronstrahlung}
 \label{sec:Synchrotronstrahlung}
@@ -25,8 +26,12 @@ mit der Zentripetalkraft $\vec{F_Z}$ ermitteln.
 \begin{equation*}
     \vec{F_Z} = \vec{F_L} \\\
     \Rightarrow m \frac{\vec{v}^2}{R} = e \cdot \vec{v} \times \vec{B}\\\\
-    \Leftrightarrow R = \frac{\vec{v}^2 m}{e \cdot \lvert \vec{v} \times \vec{B} \rvert}
 \end{equation*}
+
+\begin{equation}
+    \label{eq:Biegeradius}
+    \Leftrightarrow R = \frac{\vec{v}^2 m}{e \cdot \lvert \vec{v} \times \vec{B} \rvert}
+\end{equation}
 
 Da sich die Elektronen mit nahezu Lichtgeschwindigkeit bewegen muss relativistisch gerechnet werden.
 Es gilt also $m=m_0\gamma$ mit $m_0$ der Ruhemasse des Elektrons und $\gamma$ dem Lorentzfaktor.
@@ -69,16 +74,94 @@ einem Linienspektrum führt. Die Intensität der Synchrotronstrahlung ist hier u
 erhöht, wobei $N_P$ die Anzahl der Magnetpole ist. Bei einem Wiggler erfolgt keine Interferenz und 
 es entsteht ein kontinuirliches Spektrum dessen Synchrotronstrahlungsintensität proportional zu $N_P$ ist.
 Diese Unterscheidung ist jedoch sehr theoretisch, in der Praxis treten mit zunehmender Flussdichte im 
-Undulatorspektrum immer mehr ungradzahlige Harmonische der Undulatorline auf die dann zu einem 
-kontinuirlichen Spektrum verschmelzen.
+Undulatorspektrum immer mehr ungradzahlige Harmonische der fundamentalen Undulatorline auf die dann zu 
+einem kontinuirlichen Spektrum verschmelzen. Die Wellenlänge der fundamentalen Undulatorlinie kann 
+geschrieben werden als:
 
+\begin{equation*}
+    \lambda = \lambda_U -\lambda_U \beta^*c \cos{\theta}
+\end{equation*}
 
+Dabei ist $\theta$ der Betrachterwinkel. Dieser ist von null verschieden falls der Beobachter sich 
+nicht auf der Elektronenachse befindet. In den folgenden Experimenten ist der Beobachter jedoch immer
+auf der Elektronenachse. Daher lässt sich vereinfacht schreiben:
 
+\begin{equation*}
+    \lambda = \lambda_U -\lambda_U \beta^*c
+\end{equation*}
+
+Um jedoch zu verhindern das der Beobachter vom Elektronenstrahl getroffen wird und dieser verloren geht
+befindet sich zwischen Undulator und Beobachter noch ein Ablenkmagnet welcher Dipolstrahlung erzeugt.
+Die Strahlung des Dipols überlagert sich nun mit unbekannter Phasenbeziehung mit der Strahlung des 
+Undulators. Um die Relevanz der Dipolstrahlung im Vergleich zur Undulatorstarhlung abschätzen zu können
+werden hier die Strahlungsleistungen im Bereich der Fundamentallinie verglichen.
+Die Strahlungsleistung für dir fundamentallinie des Undulators beträgt in etwa:
+
+\begin{equation*}
+    P_{Undulator} [W] = 7,26\frac{E^2[GeV^2]I[A]K^2N_U}{\lambda_U[cm]} 
+\end{equation*}
+
+Die Gesamtstrahlungsleistung des Dipols lässt sich abschätzen über:
+
+\begin{equation}
+    P_{Total} = \frac{e\gamma^4}{3\epsilon_0R}I
+\end{equation}
+
+Da dies jedoch eben die Gesamtstrahlungsleistung im kompletten Spektrum ist und nicht die Leistung an der 
+Undulatorlinie, muss diese Größe noch mit dem Integral der Spektralfunktion $S(x)$ an der entsprechenden 
+Stelle gewichtet werden:
+
+\begin{equation*}
+    P_{Dipol} = P_{Total} \int_{a}^{b}S(x)dx = P_{Total} \int_{a}^{b} \frac{9\sqrt{3}}{8\pi}x\int_{x}^{\infty}K_{5/3}(u)du dx
+\end{equation*}
+
+mit $a = \frac{4\pi R}{3(\lambda-\lambda_{v}) \gamma^3}$ und $b = \frac{4\pi R}{3(\lambda+\lambda_{v}) \gamma^3}$ und $K_{5/3}(u)$
+der modifizierten Besselfunktion zweiter Gattung zur Basis $5/3$.
 
 \subsection{Wahrscheinlichkeit für das Messen eines Photons}
 \label{sec:Wahrscheinlichkeitsrechnung}
+Die Wahrscheinlichkeit das ein von einem Elektron in einem Bunch ausgestrahltes Photon
+den Bandpassfilter passieren kann und nicht von einem Abschwächer absorbirt wird,
+stzt sich aus den drei Einzelwahrscheinlichkeiten $P_{\textit{Abschwächer}}$,$P_{Bandpass}$ und $P_{𝐸𝑚𝑖𝑡𝑡𝑖𝑒𝑟𝑡}$
+zusammen und wird aufgrund der Stichprobengröße von $N \approx 10^{11}$ als Normalverteilt
+angenommen. Der Erwartungswert einer Normalverteilung ergibt sich aus: $\epsilon = N \times P_{Gesamt}$
+
+\begin{equation*}
+    \epsilon = N * P_{\textit{Abschwächer}} * P_{Bandpass} * P_{Emmitiert}
+\end{equation*}
+
+\subsubsection{Berechnung von \texorpdfstring{$P_{\textit{Abschwächer}}$}{TEXT}}
+\label{sec:PAbschwaecher}
+Die Wahrscheinlichkeit das ein Photon beliebiger Energie einen Abschwächer neutraler
+Dichte durchqueren ergibt sich direkt aus dem Kehrwert seiner Dichte $\rho$. Für $n$ hintereinander stehende 
+Abschwächer müssen diese Wahrscheinlichkeiten multipliziert werden. Für $n$ Abschwächer mit gleicher 
+neutraler Dichte ergibt sich:
+
+\begin{equation*}
+    P_{\textit{Abschwächer}} = \frac{1}{\rho^n}
+\end{equation*}
+
+\subsubsection{Berechnung von \texorpdfstring{$P_{Bandpass}$}{TEXT}}
+\label{sec:PBandpass}
+Die Wahrscheinlichkeit das ein im Undulator abgestrahltes Photon die richtige Wellenlänge hat um den 
+Bandpassfilter passieren zu können ergibt sich aus dem Integral über das Undulatorspektrum. Das 
+Undulatorspektrum hat die folgende Form:
+
+
 
 \subsection{Höhenkorrektur der Histogramme}
 \label{sec:TheorieKorrektur}
+Bedingt durch den messtechnischen Aufbau, kann immer nur eine bestimmte Anzahl an Photonen pro Messzyklus
+gemessen werden. Dadurch ergebt es sich das es wahrscheinlicher ist ein Photon zu messen das kurz nach 
+dem Start-Trigger ankommt als eines das lange nach dem Trigger ankommt. Denn je später das Photon ankommt
+desto wahrscheinlicher ist es das zuvor schon so viele Photonen gemessen wurden das der Messspeicher 
+für den entsprechenden Messzyklus bereits voll ist. Daher wurde ein Histogramm über viele Messzyklen 
+aufgenommen und die Rohdaten aufgetragen. Da sich der Strahlstrom über die Messzeit praktisch nicht 
+verändert hat, müsste der erste Balken des Histogramms ebenso hoch sein wie der 193., der 385. und der 
+577.. Es ist jedoch ein scheinbar exponentieller Abfall zu erkennen. Daher wurden die Daten logarithmiert 
+und durch die jeweils vier zusammengehörenden Balkenhöhen eine Ausgleichsgrade gelegt. Anschließend werden
+Mittelwerte gebildet und die Logarithmierung rückgängig gemacht. Mit der entsandenen Funktion kann dann 
+eine Höhenkorrektur durchgeführt werden.  
+
 
 

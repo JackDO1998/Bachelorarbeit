@@ -108,6 +108,9 @@
 % Verbesserungen am Schriftbild
 \usepackage{microtype}
 
+% Einrückungen verhindern
+\setlength{\parindent}{0em}
+
 
 
 
@@ -161,6 +164,7 @@
     doi=true,
     eprint=false
 ]{biblatex}
+\addbibresource{lit.bib}
 
 
 
@@ -180,7 +184,7 @@
 \input{content/auswertung.tex}
 \input{content/diskussion.tex}
 
-\printbibliography{}
+\printbibliography
 
 \input{content/anhang.tex}
 
