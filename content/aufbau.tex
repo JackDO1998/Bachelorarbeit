@@ -4,14 +4,19 @@ Allen Messungen liegt ein einfacher Aufbau zu Grunde. An einer Beamline des Elek
 wird die im davorliegenden elektromagnetischen Undulator entstehende, Strahlung über einen Spiegel 
 ausgekoppelt. Diese wird über zwei weitere Spiegel in eine dunkle Box geleitet. Dort durchquert der 
 Lichtstrahl zuerst eine Blende dann eine Reihe von neutrale Dichte Filtern und eine weitere Blende bevor 
-er auf eien Photomultiplier trifft. Dort werden einzelne Phottonen in elektrische Pulse umgewandelt.
-Diese Pulse werden im weiteren mit unterschiedlichen Messinstrumenten aufgezeichnet und später ausgewertet.
+er auf eien Photomultiplier trifft. Dieser wandelt einzelne Photonen in elektrische Pulse um. Der 
+zeitliche Abstand zwischen diesen Pulsen und dem Signal des DELTA Umlauftriggers wird mit verschiedenen 
+Messinstrumenten aufgezeichnet. 
 
 \subsection{Der Undulator}
 \label{sec:Undulator}
 Zur Strahlungserzeugung wird der Undulator U255 auf der Nordostseite des Speicherrings genutzt.
 Er besitztz $N_p= 17$ Perioden mit einer Periodenlänge von $\lambda_U=\SI{250}{\milli\meter}$.
-Die Lücke zwischen den einzelnen Magneten beträgt $\SI{50}{\milli\meter}$.
+Die Lücke zwischen den Magnetpolen beträgt $\SI{50}{\milli\meter}$. Der Undulator wurde jedoch
+im Sommer 2022 umgebaut um mittels einem "echo-enabled harmonic generation" oder kurz EEHG 
+genannten Verfahren ultrakurze Strahlungspulse zu Erzeugen. Siehe dazu: . Daher wurde für gemachten 
+Experimente nicht der komplette Undulator benutzt sondern nur der aus fünf Perioden bestehnde hinterste
+Radiator genannte Teil.
 
 \subsection{Optischer Aufbau}
 \label{sec:Optik}
@@ -47,7 +52,7 @@ $\SI{2,2}{\volt}$ aus.
 
 \subsection{Oszilloskop}
 \label{sec:Oszilloskop}
-Für die mit dem Oszilloskop durcheführten Messungen wurde ein Lecroy verwendet.
+Für die mit dem Oszilloskop durcheführten Messungen wurde ein Lecroy verwendet. 
 
 \subsection{TDC7201}
 \label{sec:TDC}
@@ -79,7 +84,7 @@ meherere Umläufe erstellt und anhand dessen der Abfall der Messwahrscheinlichke
 \begin{figure}
   \centering
   \includegraphics[width=16cm, height=12cm]{content/bilder/RaspiTdcSchaltung.pdf}
-  \caption{Der Rspberry Pi ist über den SPI Bus (GPIO 10 MOSI, GPIO 9 MISO, GPIO 8 CE0 und GPIO 11 SCLK) mit dem TDC Board verbunden. 
+  \caption{Der Raspberry Pi ist über den SPI Bus (GPIO 10 MOSI, GPIO 9 MISO, GPIO 8 CE0 und GPIO 11 SCLK) mit dem TDC Board verbunden. 
     Zudem liefert der Raspberry Pi die benötigte Betriebsspannung von $V_{DD}=\SI{3,3}{\volt}$. Außerdem ist an GPIO 4 der
     Trigger-, an GPIO 17 der Enable-, an GPIO 22 der OEN und an GPIO 5 der Interrupteingang des TDC Boards angeschlossen. } 
   \label{fig:raspitdcschaltung}

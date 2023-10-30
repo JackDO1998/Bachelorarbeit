@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {3.1}Der Undulator}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Optischer Aufbau}{9}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Der Photomultiplier}{9}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Oszilloskop}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Oszilloskop}{11}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}TDC7201}{11}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Time Tagger}{11}{subsection.3.6}%
 \contentsline {section}{\numberline {4}Durchführung}{14}{section.4}%

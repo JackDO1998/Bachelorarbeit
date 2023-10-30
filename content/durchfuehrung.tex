@@ -9,9 +9,19 @@
 
 \subsubsection{Geschwindigkeit des Delaygenerators}
 \label{sec:Delaygenerator}
+Damit der Versuchsaufbau wie ausgedacht funktioniert, müsste der Delaygenerator sein Delay alle 
+$\SI{384}{\nano\second}$ um $\SI{2}{\nano\second}$ verlängern. Also zunächst $\SI{0}{\nano\second}$,
+dann $\SI{2}{\nano\second}$, dann $\SI{4}{\nano\second}$ und so weiter bis $\SI{384}{\nano\second}$
+um dann wieder bei $\SI{0}{\nano\second}$ zu beginnen. Wie sich jedoch zeigte ist der verwendete
+Delaygenerator dazu nicht in der Lage. Dies könnte sowohl an der Konstuktion des Delaygenerators an sich 
+liegen oder an dem verwendeten Aufbau in welchem der Delaygenerator mit dem Netzwerkprotokoll VXI-11
+über das allgemein verwendete Python Script gesteuert wurde. Daher wurde der Delaygenerator aus dem 
+Aufbau entfernt und es wird versucht die Daten so gut wie möglich nachträglich mathematisch zu korrigieren.
+
 
 \subsubsection{Geschwindigkeit des TDC}
 \label{sec:GeschwindigkeitTDC}
+
 
 \subsection{Messungen mit dem Oszilloskop}
 \label{sec:MessungenOszilloskop}
