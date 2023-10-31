@@ -79,7 +79,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Zu sehen ist der optische Aufbau. Nachdem die Strahlung in das Labor gespiegelt wurde wird sie durch eine Blende, einen Bandpass und einem ND-Filter abgeschwächt bevor sie auf den Photomultiplier trifft. \relax }}{10}{figure.caption.5}\protected@file@percent }
 \newlabel{fig:blackbox}{{3}{10}{Zu sehen ist der optische Aufbau. Nachdem die Strahlung in das Labor gespiegelt wurde wird sie durch eine Blende, einen Bandpass und einem ND-Filter abgeschwächt bevor sie auf den Photomultiplier trifft. \relax }{figure.caption.5}{}}
 \BKM@entry{id=18,dest={73756273656374696F6E2E332E35},srcline={57},srcfile={2E2F636F6E74656E742F6175666261752E746578}}{5C3337365C3337375C303030545C303030445C303030435C303030375C303030325C303030305C30303031}
-\BKM@entry{id=19,dest={73756273656374696F6E2E332E36},srcline={93},srcfile={2E2F636F6E74656E742F6175666261752E746578}}{5C3337365C3337375C303030545C303030695C3030306D5C303030655C3030305C3034305C303030545C303030615C303030675C303030675C303030655C30303072}
+\BKM@entry{id=19,dest={73756273656374696F6E2E332E36},srcline={105},srcfile={2E2F636F6E74656E742F6175666261752E746578}}{5C3337365C3337375C303030545C303030695C3030306D5C303030655C3030305C3034305C303030545C303030615C303030675C303030675C303030655C30303072}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Oszilloskop}{11}{subsection.3.4}\protected@file@percent }
 \newlabel{sec:Oszilloskop}{{3.4}{11}{Oszilloskop}{subsection.3.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5}TDC7201}{11}{subsection.3.5}\protected@file@percent }
@@ -90,6 +90,8 @@
 \newlabel{fig:raspi}{{4}{12}{Auf dem Raspberry Pi befindset sich eine handgelöttete Adapterplatine welche fest mit dem Gehäuse des Raspberry Pis verschraupt ist und dessen GPIOs mit den Pins der Platine verbindet auf welcher der TDC7201 aufgelötet ist. Start- und Stopsignal werden über koaxialkabel mit SMA Verbindern geliefert. Diese werden noch kurz vor dem Bord über ein T-Stück auf $\SI {50}{\ohm }$ abgeschlossen, da das TDC Board an sich eher einen offenen Abschluss darstellt.\relax }{figure.caption.6}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Der Raspberry Pi ist über den SPI Bus (GPIO 10 MOSI, GPIO 9 MISO, GPIO 8 CE0 und GPIO 11 SCLK) mit dem TDC Board verbunden. Zudem liefert der Raspberry Pi die benötigte Betriebsspannung von $V_{DD}=\SI {3,3}{\volt }$. Außerdem ist an GPIO 4 der Trigger-, an GPIO 17 der Enable-, an GPIO 22 der OEN und an GPIO 5 der Interrupteingang des TDC Boards angeschlossen. \relax }}{13}{figure.caption.7}\protected@file@percent }
 \newlabel{fig:raspitdcschaltung}{{5}{13}{Der Raspberry Pi ist über den SPI Bus (GPIO 10 MOSI, GPIO 9 MISO, GPIO 8 CE0 und GPIO 11 SCLK) mit dem TDC Board verbunden. Zudem liefert der Raspberry Pi die benötigte Betriebsspannung von $V_{DD}=\SI {3,3}{\volt }$. Außerdem ist an GPIO 4 der Trigger-, an GPIO 17 der Enable-, an GPIO 22 der OEN und an GPIO 5 der Interrupteingang des TDC Boards angeschlossen. \relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Der TDC7200 ist in der Lage bis zu fünf Stopsignale zu bearbeiten und kann dabei je nach Einstellung entweder auf die steigende oder auf die fallende Flank des jeweiligen Start- oder Stopsignals reagieren. In den gemachten Experimenten wurde stehts die steigende Flanke genutzt. Die Spannung der Signale muss mindestens $U_{min}=0,7\times V_{DD}=\SI {2,31}{\volt }$ und darf maximal $\SI {3,6}{\volt }$ betragen. \relax }}{14}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:zeitstrukturTDC}{{6}{14}{Der TDC7200 ist in der Lage bis zu fünf Stopsignale zu bearbeiten und kann dabei je nach Einstellung entweder auf die steigende oder auf die fallende Flank des jeweiligen Start- oder Stopsignals reagieren. In den gemachten Experimenten wurde stehts die steigende Flanke genutzt. Die Spannung der Signale muss mindestens $U_{min}=0,7\times V_{DD}=\SI {2,31}{\volt }$ und darf maximal $\SI {3,6}{\volt }$ betragen. \relax }{figure.caption.8}{}}
 \BKM@entry{id=20,dest={73656374696F6E2E34},srcline={1},srcfile={2E2F636F6E74656E742F64757263686675656872756E672E746578}}{5C3337365C3337375C303030445C303030755C303030725C303030635C303030685C303030665C3030305C3337345C303030685C303030725C303030755C3030306E5C30303067}
 \BKM@entry{id=21,dest={73756273656374696F6E2E342E31},srcline={4},srcfile={2E2F636F6E74656E742F64757263686675656872756E672E746578}}{5C3337365C3337375C303030415C303030755C303030665C3030306C5C3030305C3336365C303030735C303030755C3030306E5C303030675C3030305C3034305C303030645C303030655C303030735C3030305C3034305C303030545C303030445C303030435C3030305C3034305C303030625C303030655C303030735C303030745C303030695C3030306D5C3030306D5C303030655C3030306E}
 \BKM@entry{id=22,dest={73756273656374696F6E2E342E32},srcline={7},srcfile={2E2F636F6E74656E742F64757263686675656872756E672E746578}}{5C3337365C3337375C303030505C303030725C3030306F5C303030625C3030306C5C303030655C3030306D5C303030655C3030305C3034305C303030625C303030655C303030695C3030305C3034305C303030645C303030655C303030725C3030305C3034305C3030304D5C303030655C303030735C303030735C303030755C3030306E5C303030675C3030305C3034305C3030306D5C303030695C303030745C303030745C303030655C3030306C5C303030735C3030305C3034305C303030545C303030445C30303043}
@@ -99,32 +101,32 @@
 \BKM@entry{id=26,dest={73756273656374696F6E2E342E34},srcline={29},srcfile={2E2F636F6E74656E742F64757263686675656872756E672E746578}}{5C3337365C3337375C3030304D5C303030655C303030735C303030735C303030755C3030306E5C303030675C303030655C3030306E5C3030305C3034305C3030306D5C303030695C303030745C3030305C3034305C303030645C303030655C3030306D5C3030305C3034305C303030545C303030695C3030306D5C303030655C3030305C3034305C303030545C303030615C303030675C303030675C303030655C30303072}
 \BKM@entry{id=27,dest={73656374696F6E2E35},srcline={1},srcfile={2E2F636F6E74656E742F61757377657274756E672E746578}}{5C3337365C3337375C303030415C303030755C303030735C303030775C303030655C303030725C303030745C303030755C3030306E5C30303067}
 \BKM@entry{id=28,dest={73656374696F6E2E36},srcline={1},srcfile={2E2F636F6E74656E742F6469736B757373696F6E2E746578}}{5C3337365C3337375C303030445C303030695C303030735C3030306B5C303030755C303030735C303030735C303030695C3030306F5C3030306E}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Durchführung}{14}{section.4}\protected@file@percent }
-\newlabel{sec:Durchfuehrung}{{4}{14}{Durchführung}{section.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Auflösung des TDC bestimmen}{14}{subsection.4.1}\protected@file@percent }
-\newlabel{sec:AufloesungTDC}{{4.1}{14}{Auflösung des TDC bestimmen}{subsection.4.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Probleme bei der Messung mittels TDC}{14}{subsection.4.2}\protected@file@percent }
-\newlabel{sec:ProblemeTDC}{{4.2}{14}{Probleme bei der Messung mittels TDC}{subsection.4.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Geschwindigkeit des Delaygenerators}{14}{subsubsection.4.2.1}\protected@file@percent }
-\newlabel{sec:Delaygenerator}{{4.2.1}{14}{Geschwindigkeit des Delaygenerators}{subsubsection.4.2.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Geschwindigkeit des TDC}{14}{subsubsection.4.2.2}\protected@file@percent }
-\newlabel{sec:GeschwindigkeitTDC}{{4.2.2}{14}{Geschwindigkeit des TDC}{subsubsection.4.2.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Messungen mit dem Oszilloskop}{14}{subsection.4.3}\protected@file@percent }
-\newlabel{sec:MessungenOszilloskop}{{4.3}{14}{Messungen mit dem Oszilloskop}{subsection.4.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Messungen mit dem Time Tagger}{14}{subsection.4.4}\protected@file@percent }
-\newlabel{sec:MessungenTT}{{4.4}{14}{Messungen mit dem Time Tagger}{subsection.4.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Auswertung}{14}{section.5}\protected@file@percent }
-\newlabel{sec:Auswertung}{{5}{14}{Auswertung}{section.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Diskussion}{14}{section.6}\protected@file@percent }
-\newlabel{sec:Diskussion}{{6}{14}{Diskussion}{section.6}{}}
-\newlabel{sec:Anhang}{{6}{14}{Anhang}{section*.8}{}}
-\newlabel{sec:DELTAoverview}{{6}{14}{DELTA Übersichtsplan}{section*.9}{}}
-\newlabel{sec:Code}{{6}{14}{Verwendeter Programmcode}{section*.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Nix \relax }}{15}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:DELTAoverview}{{6}{15}{Nix \relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Durchführung}{15}{section.4}\protected@file@percent }
+\newlabel{sec:Durchfuehrung}{{4}{15}{Durchführung}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Auflösung des TDC bestimmen}{15}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:AufloesungTDC}{{4.1}{15}{Auflösung des TDC bestimmen}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Probleme bei der Messung mittels TDC}{15}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:ProblemeTDC}{{4.2}{15}{Probleme bei der Messung mittels TDC}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Geschwindigkeit des Delaygenerators}{15}{subsubsection.4.2.1}\protected@file@percent }
+\newlabel{sec:Delaygenerator}{{4.2.1}{15}{Geschwindigkeit des Delaygenerators}{subsubsection.4.2.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Geschwindigkeit des TDC}{15}{subsubsection.4.2.2}\protected@file@percent }
+\newlabel{sec:GeschwindigkeitTDC}{{4.2.2}{15}{Geschwindigkeit des TDC}{subsubsection.4.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Messungen mit dem Oszilloskop}{15}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:MessungenOszilloskop}{{4.3}{15}{Messungen mit dem Oszilloskop}{subsection.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Messungen mit dem Time Tagger}{15}{subsection.4.4}\protected@file@percent }
+\newlabel{sec:MessungenTT}{{4.4}{15}{Messungen mit dem Time Tagger}{subsection.4.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Auswertung}{15}{section.5}\protected@file@percent }
+\newlabel{sec:Auswertung}{{5}{15}{Auswertung}{section.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Diskussion}{15}{section.6}\protected@file@percent }
+\newlabel{sec:Diskussion}{{6}{15}{Diskussion}{section.6}{}}
+\newlabel{sec:Anhang}{{6}{15}{Anhang}{section*.9}{}}
+\newlabel{sec:DELTAoverview}{{6}{15}{DELTA Übersichtsplan}{section*.10}{}}
+\newlabel{sec:Code}{{6}{15}{Verwendeter Programmcode}{section*.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Nix \relax }}{16}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:DELTAoverview}{{7}{16}{Nix \relax }{figure.caption.11}{}}
 \abx@aux@read@bbl@mdfivesum{5D0D039BF84E4F45A7144D280F172F5D}
 \global\@namedef{scr@dte@section@lastmaxnumwidth}{10.40242pt}
 \global\@namedef{scr@dte@subsection@lastmaxnumwidth}{18.37404pt}
 \global\@namedef{scr@dte@subsubsection@lastmaxnumwidth}{26.89314pt}
 \@writefile{toc}{\providecommand\tocbasic@end@toc@file{}\tocbasic@end@toc@file}
-\gdef \@abspage@last{15}
+\gdef \@abspage@last{16}
