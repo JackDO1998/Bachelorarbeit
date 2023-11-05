@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {3.2}Optischer Aufbau}{9}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Der Photomultiplier}{9}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Oszilloskop}{11}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}TDC7201}{11}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.5}TDC7200}{11}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Time Tagger}{11}{subsection.3.6}%
 \contentsline {section}{\numberline {4}Durchführung}{15}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Auflösung des TDC bestimmen}{15}{subsection.4.1}%
