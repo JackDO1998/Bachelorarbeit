@@ -1,9 +1,15 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[1] Config.pm:310> INFO - Logfile is 'Bachelorarbeit_Gaschina.blg'
-[244] biber-MSWIN64:340> INFO - === 
-[326] Biber.pm:419> INFO - Reading 'Bachelorarbeit_Gaschina.bcf'
-[592] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[623] bbl.pm:660> INFO - Writing 'Bachelorarbeit_Gaschina.bbl' with encoding 'UTF-8'
-[623] bbl.pm:763> INFO - Output to Bachelorarbeit_Gaschina.bbl
-[624] Biber.pm:131> WARN - The file 'Bachelorarbeit_Gaschina.bcf' does not contain any citations!
-[624] Biber.pm:133> INFO - WARNINGS: 1
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'Bachelorarbeit_Gaschina.blg'
+[316] biber-MSWIN64:342> INFO - === 
+[494] Biber.pm:421> INFO - Reading 'Bachelorarbeit_Gaschina.bcf'
+[574] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[587] Biber.pm:4487> INFO - Processing section 0
+[627] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[710] bibtex.pm:1713> INFO - LaTeX decoding ...
+[734] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[869] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[869] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[870] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'de_DE'
+[870] Biber.pm:4313> INFO - No sort tailoring available for locale 'de_DE'
+[872] bbl.pm:676> INFO - Writing 'Bachelorarbeit_Gaschina.bbl' with encoding 'UTF-8'
+[873] bbl.pm:779> INFO - Output to Bachelorarbeit_Gaschina.bbl
