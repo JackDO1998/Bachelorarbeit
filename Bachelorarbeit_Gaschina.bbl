@@ -45,6 +45,39 @@
       \field{title}{Physik der Teilchenbeschleuniger und Synchrotronstrahlungsquellen}
       \field{year}{1996}
     \endentry
+    \entry{DLMF}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a44b6b00e5eebd7494e1fd00658685e2}{%
+           family={NIST},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{fullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{fullhashraw}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{bibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorbibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authornamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorfullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorfullhashraw}{a44b6b00e5eebd7494e1fd00658685e2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital Library of Mathematical Functions}
+      \field{urlday}{11}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dlmf.nist.gov/
+      \endverb
+      \verb{url}
+      \verb https://dlmf.nist.gov/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

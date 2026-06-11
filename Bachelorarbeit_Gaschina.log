@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.6.8)  8 JUN 2026 13:09
+This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.6.8)  11 JUN 2026 08:15
  restricted system commands enabled.
 **Bachelorarbeit_Gaschina.tex
 (./Bachelorarbeit_Gaschina.tex
@@ -2040,19 +2040,27 @@ Package luatex.def Info: FAKlogo.png  used on input line 121.
 (luatex.def)             Requested size: 58.17526pt x 25.0pt.
  [8]
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 133.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 151.
 
-) (./content/aufbau.tex
 File: TUlogo.png Graphic file (type png)
 <use TUlogo.png>
-Package luatex.def Info: TUlogo.png  used on input line 10.
+Package luatex.def Info: TUlogo.png  used on input line 183.
 (luatex.def)             Requested size: 31.52394pt x 25.0pt.
 File: FAKlogo.png Graphic file (type png)
 <use FAKlogo.png>
-Package luatex.def Info: FAKlogo.png  used on input line 10.
+Package luatex.def Info: FAKlogo.png  used on input line 183.
 (luatex.def)             Requested size: 58.17526pt x 25.0pt.
- [9]
-<content/bilder/blackbox.pdf, id=226, 3035.34pt x 2276.505pt>
+ [9]) (./content/aufbau.tex
+File: TUlogo.png Graphic file (type png)
+<use TUlogo.png>
+Package luatex.def Info: TUlogo.png  used on input line 34.
+(luatex.def)             Requested size: 31.52394pt x 25.0pt.
+File: FAKlogo.png Graphic file (type png)
+<use FAKlogo.png>
+Package luatex.def Info: FAKlogo.png  used on input line 34.
+(luatex.def)             Requested size: 58.17526pt x 25.0pt.
+ [10]
+<content/bilder/blackbox.pdf, id=237, 3035.34pt x 2276.505pt>
 File: content/bilder/blackbox.pdf Graphic file (type pdf)
 <use content/bilder/blackbox.pdf>
 Package luatex.def Info: content/bilder/blackbox.pdf  used on input line 37.
@@ -2064,23 +2072,14 @@ Overfull \hbox (36.97949pt too wide) in paragraph at lines 37--39
 
 File: TUlogo.png Graphic file (type png)
 <use TUlogo.png>
-Package luatex.def Info: TUlogo.png  used on input line 58.
+Package luatex.def Info: TUlogo.png  used on input line 53.
 (luatex.def)             Requested size: 31.52394pt x 25.0pt.
 File: FAKlogo.png Graphic file (type png)
 <use FAKlogo.png>
-Package luatex.def Info: FAKlogo.png  used on input line 58.
+Package luatex.def Info: FAKlogo.png  used on input line 53.
 (luatex.def)             Requested size: 58.17526pt x 25.0pt.
-[10]
-File: TUlogo.png Graphic file (type png)
-<use TUlogo.png>
-Package luatex.def Info: TUlogo.png  used on input line 58.
-(luatex.def)             Requested size: 31.52394pt x 25.0pt.
-File: FAKlogo.png Graphic file (type png)
-<use FAKlogo.png>
-Package luatex.def Info: FAKlogo.png  used on input line 58.
-(luatex.def)             Requested size: 58.17526pt x 25.0pt.
- [11<./content/bilder/blackbox.pdf>]
-<content/bilder/raspi.pdf, id=266, 3035.34pt x 2276.505pt>
+[11<./content/bilder/blackbox.pdf>]
+<content/bilder/raspi.pdf, id=269, 3035.34pt x 2276.505pt>
 File: content/bilder/raspi.pdf Graphic file (type pdf)
 <use content/bilder/raspi.pdf>
 Package luatex.def Info: content/bilder/raspi.pdf  used on input line 71.
@@ -2090,7 +2089,7 @@ Overfull \hbox (36.97949pt too wide) in paragraph at lines 71--76
  [][] 
  []
 
-<content/bilder/RaspiTdcSchaltung.pdf, id=267, 3414.3307pt x 2560.74803pt>
+<content/bilder/RaspiTdcSchaltung.pdf, id=270, 3414.3307pt x 2560.74803pt>
 File: content/bilder/RaspiTdcSchaltung.pdf Graphic file (type pdf)
 <use content/bilder/RaspiTdcSchaltung.pdf>
 Package luatex.def Info: content/bilder/RaspiTdcSchaltung.pdf  used on input li
@@ -2101,7 +2100,7 @@ Overfull \hbox (36.98048pt too wide) in paragraph at lines 82--85
  [][] 
  []
 
-<content/bilder/ZeitstrukturTDC.pdf, id=268, 845.04684pt x 597.50787pt>
+<content/bilder/ZeitstrukturTDC.pdf, id=271, 845.04684pt x 597.50787pt>
 File: content/bilder/ZeitstrukturTDC.pdf Graphic file (type pdf)
 <use content/bilder/ZeitstrukturTDC.pdf>
 Package luatex.def Info: content/bilder/ZeitstrukturTDC.pdf  used on input line
@@ -2149,8 +2148,13 @@ File: FAKlogo.png Graphic file (type png)
 Package luatex.def Info: FAKlogo.png  used on input line 1.
 (luatex.def)             Requested size: 58.17526pt x 25.0pt.
  [15<./content/bilder/ZeitstrukturTDC.pdf>])
-(./content/auswertung.tex) (./content/diskussion.tex) (./content/anhang.tex
-<content/bilder/DeltaOverview.pdf, id=350, 418.48534pt x 246.48729pt>
+(./content/auswertung.tex) (./content/diskussion.tex)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (./content/anhang.tex
+<content/bilder/DeltaOverview.pdf, id=354, 418.48534pt x 246.48729pt>
 File: content/bilder/DeltaOverview.pdf Graphic file (type pdf)
 <use content/bilder/DeltaOverview.pdf>
 Package luatex.def Info: content/bilder/DeltaOverview.pdf  used on input line 9
@@ -2182,44 +2186,47 @@ L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `Bachelorarbeit_Gaschina.aux' has not changed
 .
-(rerunfilecheck)             Checksum: 33BDBE0196EC4262307CDD2A2A0267B3;21904.
+(rerunfilecheck)             Checksum: E77A337CBCAAB56F92EF0B2CF41E3095;22137.
 Package rerunfilecheck Info: File `Bachelorarbeit_Gaschina.toc' has not changed
 .
-(rerunfilecheck)             Checksum: B76F56D7AE853814FF20EB868AF8F9BE;2644.
+(rerunfilecheck)             Checksum: 5371A991C84F572585F3BCB7C17FFD87;2645.
 Package logreq Info: Writing requests to 'Bachelorarbeit_Gaschina.run.xml'.
 
 \openout1 = Bachelorarbeit_Gaschina.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 40800 strings out of 475703
+ 40818 strings out of 475703
  100000,2373549 words of node,token memory allocated
- 817 words of node memory still in use:
+ 847 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 1 margin_ke
-rn, 3 glyph, 50 attribute, 77 glue_spec, 26 attribute_list, 1 write nodes
-   avail lists: 1:6,2:2084,3:473,4:248,5:681,6:145,7:9279,8:46,9:773,10:29,11:11
+rn, 3 glyph, 60 attribute, 77 glue_spec, 31 attribute_list, 1 write nodes
+   avail lists: 1:6,2:2074,3:474,4:248,5:681,6:147,7:9282,8:58,9:773,10:29,11:11
 05,12:1
- 62834 multiletter control sequences out of 65536+600000
- 96 fonts using 34311535 bytes
- 108i,24n,115p,11225b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/users/gaschinaja/appdata/local/programs/miktex/fonts/opentype/public/lm/lmro
-man10-italic.otf><c:/users/gaschinaja/appdata/local/programs/miktex/fonts/openty
-pe/public/lm/lmsans10-boldoblique.otf><C:/Users/Gaschinaja/AppData/Local/Program
-s/MiKTeX/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/users/gaschinaja
-/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><C:/U
-sers/Gaschinaja/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm-math/lati
-nmodern-math.otf><c:/users/gaschinaja/appdata/local/programs/miktex/fonts/openty
-pe/public/lm/lmroman8-italic.otf><C:/Users/Gaschinaja/AppData/Local/Programs/MiK
-TeX/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/users/gaschinaja/appd
-ata/local/programs/miktex/fonts/opentype/public/lm/lmromanslant10-regular.otf><c
-:/users/gaschinaja/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroma
-n10-regular.otf><c:/users/gaschinaja/appdata/local/programs/miktex/fonts/opentyp
-e/public/lm/lmroman12-regular.otf><c:/users/gaschinaja/appdata/local/programs/mi
-ktex/fonts/opentype/public/lm/lmsans10-bold.otf><c:/users/gaschinaja/appdata/loc
-al/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on Bachelorarbeit_Gaschina.pdf (17 pages, 7134305 bytes).
+ 62851 multiletter control sequences out of 65536+600000
+ 98 fonts using 34568335 bytes
+ 108i,24n,113p,11225b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/gaschinaja/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmo
+no10-regular.otf><c:/users/gaschinaja/appdata/local/programs/miktex/fonts/openty
+pe/public/lm/lmromancaps10-regular.otf><c:/users/gaschinaja/appdata/local/progra
+ms/miktex/fonts/opentype/public/lm/lmroman10-italic.otf><c:/users/gaschinaja/app
+data/local/programs/miktex/fonts/opentype/public/lm/lmsans10-boldoblique.otf><C:
+/Users/Gaschinaja/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm-math/la
+tinmodern-math.otf><c:/users/gaschinaja/appdata/local/programs/miktex/fonts/open
+type/public/lm/lmroman10-bold.otf><C:/Users/Gaschinaja/AppData/Local/Programs/Mi
+KTeX/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/users/gaschinaja/app
+data/local/programs/miktex/fonts/opentype/public/lm/lmroman8-italic.otf><C:/User
+s/Gaschinaja/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm-math/latinmo
+dern-math.otf><c:/users/gaschinaja/appdata/local/programs/miktex/fonts/opentype/
+public/lm/lmromanslant10-regular.otf><c:/users/gaschinaja/appdata/local/programs
+/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><c:/users/gaschinaja/appd
+ata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><c:/use
+rs/gaschinaja/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans10-bo
+ld.otf><c:/users/gaschinaja/appdata/local/programs/miktex/fonts/opentype/public/
+lm/lmroman12-bold.otf>
+Output written on Bachelorarbeit_Gaschina.pdf (17 pages, 7144291 bytes).
 
-PDF statistics: 541 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 1048576)
+PDF statistics: 559 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 1048576)
  233 words of extra memory for PDF output out of 10000 (max. 100000000)
 
